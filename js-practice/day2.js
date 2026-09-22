@@ -33,3 +33,10 @@ let contact = {
  }
 
  console.log(bear)
+
+//  Object manipulation
+console.log(contact.firstName)
+
+// JSON --> JavaScript Object Notation
+
+bear2 = Object.assign({},bear)
